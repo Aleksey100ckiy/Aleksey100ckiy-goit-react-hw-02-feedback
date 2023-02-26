@@ -14,9 +14,9 @@ export class App extends React.Component{
     }
     
   state = {
-        good: 0,
-        neutral: 0,
-        bad: 0,
+        good: 1,
+        neutral: 2,
+        bad: 3,
   };
 
   handleClick = (e) => {
@@ -41,6 +41,7 @@ export class App extends React.Component{
     };
 
   render() {
+    let { good, neutral, bad } = this.state;
     return (
         <div className="">
         <Section title="Please leave feedback">
@@ -48,7 +49,7 @@ export class App extends React.Component{
           </FeedbackOptions>
           </Section>
         <Section title="Statistics">
-          <Statistics good={this.state.good} neutral={this.state.neutral} bad={this.state.bad} total={this.countTotalFeedback()} positivePercentage={this.countPositiveFeedbackPercentage()}></Statistics>
+          <Statistics good={good} neutral={neutral} bad={bad} total={this.countTotalFeedback()} positivePercentage={this.countPositiveFeedbackPercentage()}></Statistics>
         </Section> 
         <Notification message="There is no feedback"></Notification>
         </div>

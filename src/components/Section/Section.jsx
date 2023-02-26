@@ -6,10 +6,11 @@ class Section extends React.Component{
         children: this.props.children,
     }
     render() {
+        let { title, children } = this.state;
         return (
             <section>
-                <h2>{this.state.title}</h2> 
-                {this.state.children}
+                <h2>{title}</h2> 
+                {children}
             </section>
         )
     }
