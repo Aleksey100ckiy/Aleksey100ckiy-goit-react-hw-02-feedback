@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Aleksey100ckiy-goit-react-hw-02-feedback/static/css/main.7acaea2f.css",
-    "main.js": "/Aleksey100ckiy-goit-react-hw-02-feedback/static/js/main.bd3e80bf.js",
+    "main.css": "/Aleksey100ckiy-goit-react-hw-02-feedback/static/css/main.c3d5249d.css",
+    "main.js": "/Aleksey100ckiy-goit-react-hw-02-feedback/static/js/main.2a74569e.js",
     "index.html": "/Aleksey100ckiy-goit-react-hw-02-feedback/index.html",
-    "main.7acaea2f.css.map": "/Aleksey100ckiy-goit-react-hw-02-feedback/static/css/main.7acaea2f.css.map",
-    "main.bd3e80bf.js.map": "/Aleksey100ckiy-goit-react-hw-02-feedback/static/js/main.bd3e80bf.js.map"
+    "main.c3d5249d.css.map": "/Aleksey100ckiy-goit-react-hw-02-feedback/static/css/main.c3d5249d.css.map",
+    "main.2a74569e.js.map": "/Aleksey100ckiy-goit-react-hw-02-feedback/static/js/main.2a74569e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.bd3e80bf.js"
+    "static/css/main.c3d5249d.css",
+    "static/js/main.2a74569e.js"
   ]
 }
