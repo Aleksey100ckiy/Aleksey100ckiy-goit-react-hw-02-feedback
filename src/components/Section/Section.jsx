@@ -1,12 +1,7 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
-class Section extends React.Component{
-    state = {
-        title: this.props.title,
-        children: this.props.children,
-    }
-    render() {
-        let { title, children } = this.state;
+const Section =({title, children})=> {
         return (
             <section>
                 <h2>{title}</h2> 
@@ -14,5 +9,8 @@ class Section extends React.Component{
             </section>
         )
     }
-}
+
+    Section.propTypes={
+       title: PropTypes.string.isRequired,
+    }
 export default Section;
